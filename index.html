@@ -1,0 +1,147 @@
+
+<html>
+    <head>
+    <title>花草日禾</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="HTML, CSS">
+    <font face="標楷體">
+    <style>
+    body {
+      margin: 0; 
+    }
+    .header{
+      background-color: #f6f5f1;
+      padding: 20px;
+      text-align: center;
+    }
+    div.bar{
+        padding: 2px;
+        text-align: center;
+        top:0;
+        background-color: #DCDCDC;
+        font-size:20px;
+        font-weight:bolder;
+        letter-spacing:40px;
+    }
+    a:link, a:visited {
+       color: black;
+       text-decoration: none;
+       
+    }
+    a:hover, a:active {
+        color: #668639;
+        text-decoration: none;
+        font-size:120%;
+    }
+    li {
+      display: inline;
+    }
+    div.relative {
+      position: relative;
+      width: 100%;
+      height: 630px;
+    } 
+    div.absolute {
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: 150px;
+    }
+    div.absolute1 {
+      position: absolute;
+      right: 50%;
+      width: 50%;
+      height: 150px;
+    }
+    div.gallery {
+      position: absolute;
+      left:10px;
+      right:15px;
+      background-color: #f6f5f1;
+      width: 95%;
+      height: 600px;
+      border: none;
+      margin: 10px;
+    }
+    
+    div.gallery:hover {
+      border: 4px solid #FFDEAD;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 30px;
+      font-size:40px;
+      text-align: center;
+    }
+    </style>
+    </head>
+    
+    <body>
+    <div class="header">
+    <h1><img src="fl.jpg" width="135px" height="135px" style="position:relative; top:10px" alt="flower"></h1>
+    </div>
+    <div class="bar">
+        <ul>
+      <a href="project.html" style="letter-spacing: 5px;">首頁</a>
+      <a href="und.html" target="_blank" style="letter-spacing: 5px">了解我們</a>
+      <a href="product.html" target="_blank" style="letter-spacing: 5px">產品</a>
+      <a href="tt.html" target="_blank" style="letter-spacing: 5px">活動</a>
+      <a href="test.html" target="_blank" style="letter-spacing: 5px">聯絡我們</a>
+    </ul>
+    </div>
+    
+    
+    <div class="relative">
+      <div class="absolute">
+        <div class="gallery">
+         <a target="_blank" href="tt.html">
+          <img src="f5.png" alt="f5" width="200" height="100">
+         </a>
+          <div class="desc">最新活動</div>
+      </div>
+    </div>
+      <div class="absolute1">
+       <div class="gallery">
+          <a target="_blank" href="product.html">
+            <img src="sell.png" alt="se11" width="200" height="100">
+          </a>
+            <div class="desc">新品上市</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="relative">
+      <div class="absolute">
+        <div class="gallery">
+         <a target="_blank" href="product.html">
+          <img src="ff.png" alt="ff" width="200" height="100">
+         </a>
+          <div class="desc">期間限定</div>
+      </div>
+    </div>
+      <div class="absolute1">
+       <div class="gallery">
+          <a target="_blank" href="tt.html">
+            <img src="promote.png" alt="promote" width="200" height="100">
+          </a>
+            <div class="desc">限時促銷</div>
+        </div>
+      </div>
+    </div>
+        
+    <div class="header">
+       <ul style="margin: 0px -10px 0 0;">
+          <li>地址:320 桃園縣中壢市遠東路135號 </li><br><br>
+          <li>電話:03 463 8800( 週一 ~ 週五 08:00~18:00 )</li><br><br>
+          <li>電子信箱:abcd@gmail.com</li>
+       </ul>
+    </div>
+                                    
+    </body>
+    </html>
